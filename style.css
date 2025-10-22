@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #4b0043;
+  color: rgb(248, 244, 244);
+  text-align: center;
+  padding: 40px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products li {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #4b0043;
+  color: white;
+  border-radius: 5px;
+}
+
+.contact input, 
+.contact textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #4b0043;
+  color: white;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #4b0043;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
