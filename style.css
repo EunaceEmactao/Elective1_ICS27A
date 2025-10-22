@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -76,19 +75,7 @@ footer {
   padding: 20px 0;
   margin-top: 40px;
 } 
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px 20px;
-}
 
-.hero-text {
-  flex: 1;
-  text-align: right;
-  max-width: 600px;
-}
 
 .side-image {
   float: right;
